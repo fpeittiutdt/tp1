@@ -24,11 +24,11 @@ Cada función fk : [rk, rk+1] −→ R se la denomina pieza.
 '''
 
 DATA: json = {
-    'ASPEN': 'aspen_simulation',
-    'ETHANOL': 'ethanol_water_vle',
+    'ASPEN':      'aspen_simulation',
+    'ETHANOL':    'ethanol_water_vle',
     'OPTIMISTIC': 'optimistic_instance',
-    'TITANIUM': 'titanium',
-    'TOY': 'toy_instance',
+    'TITANIUM':   'titanium',
+    'TOY':        'toy_instance'
 }
 
 def graph(instance: json, solution, m:int, n:int):
