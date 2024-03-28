@@ -31,8 +31,8 @@ Para el primer segmento, 1 = 595, r2 = 787, y la pieza f1(t) se obtiene mediante
 que une los puntos (595,0.601) y (787,0.601), siguiendo la ecuación (1). Análogamente, la pieza f2(t) 
 tiene dominio [r2, r3] = [787, 883] y la función f2(t) se obtiene aplicando la ecuación (1) tomando
 como referencia los puntos (787, 0.601) y (883, 1.228). Notar que una función continua PWL
-puede ser definida en términos de K puntos dados por (rk, fk(rk)) para k = 1, . . . , K − 1 y
-(rK, fK−1(rK)).
+puede ser definida en términos de K puntos dados por (rk, fk(rk)) para k = 1, . . . , K - 1 y
+(rK, fK-1(rK)).
 Finalmente, analizamos el error de la aproximación. Dada una pieza fk(t) definida por los
 breakpoints (rk, zk) y (rk+1, zk+1) y los puntos (xi
 , yi), i = 1, . . . , n, definimos el error de
